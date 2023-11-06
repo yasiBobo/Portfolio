@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0;
+}
+.footer-txt {
+  font-family: 'Martian Mono', monospace;
+  font-size: .7rem;
+  font-weight: 500;
+  color: #a8b2d1;
+  margin: 0 0 .8rem 0;
+  padding: 0;
+}
+.footer-icon {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.footer-icon span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: .8rem;
+  font-weight: 500;
+  color: #a8b2d1;
+}
