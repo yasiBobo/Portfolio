@@ -51,10 +51,10 @@ const Nav = () => {
           whileInView={'show'}
           viewport={{ once: false, amount: 0.4 }}
         >
-          <a href='#about'
+          <a href='#work'
             className="menu-link">
             <span className="num">01.</span>
-            About
+            Work
           </a>
         </motion.div>
 
@@ -64,9 +64,9 @@ const Nav = () => {
           whileInView={'show'}
           viewport={{ once: false, amount: 0.4 }}
         >
-          <a href='#work' className="menu-link">
-            <span className="num">03.</span>
-            Work
+          <a href='#about' className="menu-link">
+            <span className="num">02.</span>
+            About
           </a>
         </motion.div>
 

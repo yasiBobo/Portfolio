@@ -18,7 +18,7 @@ const Work = () => {
       viewport={{ once: false, amount: 0.3 }}
       >
         <h1 className="work-title">
-          <span className="num">02.</span> <span>Where I’ve Worked</span> <span className='line'></span>
+          <span className="num">03.</span> <span>Where I’ve Worked</span> <span className='line'></span>
         </h1>
         <div className="work-content">
           <div className="work-list">

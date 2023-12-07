@@ -73,9 +73,9 @@ function App() {
 
       <main className="main">
         <Header />
+        <Projects />
         <About />
         {/* <Work /> */}
-        <Projects />
         <Portfolio />
         <Contact />
       </main>

@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+
 .about {
+  width: 100%;
   height: 100vh;
-  padding: 20px 6rem;
+  padding: 20px 0rem;
   margin-top: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
 .about-title {
   width: 100%;
   position: relative;
@@ -18,6 +22,7 @@
   font-family: 'Barlow', sans-serif;
   color: #C2CCEC;
 }
+
 .about-title .num {
   font-size: 1rem;
   font-family: 'Martian Mono', monospace;
@@ -25,6 +30,7 @@
   color: #5FF2D1;
   margin-top: 2px;
 }
+
 .about-title .line {
   width: 324px;
   height: 1px;
@@ -32,12 +38,69 @@
   opacity: .5;
 }
 
-.about-content {
+/* .about-codes {
+  padding: 3vh 0 0 0;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  position: relative;
+}
+.about-code {
+  width: 100%;
+  height: 3vh;
+  align-items: center;
+  margin: 5px 0 0 0;
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-code span {
+  font-family: "Gluten";
+  font-size: 1.3em;
+  font-weight: 500;
+
+}
+.purple {
+  color: #9D009E;
+}
+.yellow {
+  color: #E0EF30;
+}
+.grey {
+  color: #a8b2d1;
+}
+.red {
+  color: #C52346;
+}
+.aqua {
+  color: #24D68C;
+}
+.green {
+  color: #24D439;
+}
+.orange {
+  color: #C68A25;
+}
+.bracket {
+  font-size: 3em;
+}
+.dot {
+  margin-right: 15px;
+}
+.equal {
+  margin: 0 10px;
+} */
+
+/* .about-content {
   width: 100%;
   display: flex;
   margin-top: 40px;
-}
+} */
 .about-content_text {
+  margin-top: 2rem;
+  width: 80%;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -113,11 +176,13 @@
   .about-content_image {
     display: none;
   }
+
 }
 
 @media screen and (max-width: 680px)  {
   .about {
     padding: 20px 1rem;
+    margin-top: 0;
   }
   .about-text {
     font-size: 1rem;
@@ -130,5 +195,8 @@
   }
   .about-title .num {
     font-size: .8rem;
+  }
+  .about-content_text {
+    width: 100%;
   }
 }

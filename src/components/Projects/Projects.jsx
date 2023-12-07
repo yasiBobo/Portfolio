@@ -19,7 +19,7 @@ const Projects = () => {
       <h1 
       className="project-title"
       >
-        <span className="num">03.</span> <span>Some Things I’ve Built</span> <span className='line'></span>
+        <span className="num">01.</span> <span>Some Things I’ve Built</span> <span className='line'></span>
       </h1>
 
 
@@ -31,26 +31,26 @@ const Projects = () => {
         </div>
         <div className="project-content">
           <p className="pre-title">Featured Project</p>
-          <a href='#' className="project-box_title">Halcyon Theme</a>
+          <a href='#' className="project-box_title">Admin Panel</a>
           <div className="text-box_container">
             <p className="text-box">
-              A minimal, dark blue theme for VS Code, Sublime Text, Atom, <br />
-              iTerm, and more. Available on <span className="aqua"> Visual Studio Marketplace,</span> <br />
-              <span className="aqua">Package Control</span>, <span className='aqua'>Atom Package Manager</span> , and <span className="aqua">npm.</span>
+              A minimal, costume, admin panel made for your <br />
+             business/daily interactions <span className="aqua"> Visualized with React</span> <br />
+              <span className="aqua">Styled Components</span>, <span className='aqua'>React used within TypeScript</span> , and <span className="aqua">npm. </span>
+              <span>VISIT IT ONLY WITH BIG DISPLAYS!</span>
             </p>
           </div>
 
           <ul className="sub-titles">
-            <li>VS Code</li>
-            <li>Sublime</li>
-            <li>Text</li>
-            <li>Atom</li>
-            <li>iTerm2</li>
-            <li>Hyper</li>
+            <li>React</li>
+            <li>Tailwind</li>
+            <li>TS</li>
+            <li>vs code</li>
+            <li>npm</li>
+            <li>JS</li>
           </ul>
           <div className="links">
-            <a href='#'><VscGithubAlt /></a>
-            <a href='#'><GoLinkExternal /></a>
+            <a href='https://yasibobo.dev/admin'><GoLinkExternal /></a>
           </div>
         </div>
       </div>
@@ -60,24 +60,23 @@ const Projects = () => {
       >
         <div className="project-content">
           <p className="pre-title">Featured Project</p>
-          <a href='#' className="project-box_title">Halcyon Theme</a>
+          <a href='#' className="project-box_title">News Website</a>
           <div className="text-box_container">
             <p className="text-box">
-              A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+              This project is a News Website based on codes of PHP. It includes small web App which can be performed in many browsers and you can customize it as you wish, you just need to tell me. My codes are visible in my Github page down bellow!
             </p>
           </div>
 
           <ul className="sub-titles">
             <li>VS Code</li>
-            <li>Sublime</li>
-            <li>Text</li>
-            <li>Atom</li>
-            <li>iTerm2</li>
-            <li>Hyper</li>
+            <li>PHP</li>
+            <li>SCSS</li>
+            <li>JS</li>
+            <li>HTML</li>
+            <li>CSS</li>
           </ul>
           <div className="links">
-            <a href='#'><VscGithubAlt /></a>
-            <a href='#'><GoLinkExternal /></a>
+            <a href='https://github.com/yasiBobo/PHP-News-Website-Project' target="__blank"><VscGithubAlt /></a>
           </div>
         </div>
         <div className="project-image">
@@ -93,26 +92,25 @@ const Projects = () => {
         </div>
         <div className="project-content">
           <p className="pre-title">Featured Project</p>
-          <a href='#' className="project-box_title">BOBO's Theme</a>
+          <a href='#' className="project-box_title">Bitcoin Web App</a>
           <div className="text-box_container">
             <p className="text-box">
-              A minimal, dark blue theme for VS Code, Sublime Text, Atom, <br />
-              iTerm, and more. Available on <span className="aqua"> Visual Studio Marketplace,</span> <br />
-              <span className="aqua">Package Control</span>, <span className='aqua'>Atom Package Manager</span> , and <span className="aqua">npm.</span>
+             This project is based on my trading journey. It contains multiple <br />
+              layers of elements <span className="aqua"> As simple As it is, it is found as one of the attractive projects of mine.</span> <br />
+              Which i have only built it with pure <span className="aqua">HTML & CSS!</span>
             </p>
           </div>
 
           <ul className="sub-titles">
             <li>VS Code</li>
-            <li>Sublime</li>
-            <li>Text</li>
-            <li>Atom</li>
-            <li>iTerm2</li>
+            <li>HTML</li>
+            <li>CSS</li>
             <li>Hyper</li>
+            <li>FLEX</li>
+            <li>Grid System</li>
           </ul>
           <div className="links">
-            <a href='#'><VscGithubAlt /></a>
-            <a href='#'><GoLinkExternal /></a>
+            <a href='https://github.com/yasiBobo/Bitcoin-Website-Project' target="__blank"><VscGithubAlt /></a>
           </div>
         </div>
       </div>

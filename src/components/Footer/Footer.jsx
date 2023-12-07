@@ -12,7 +12,7 @@ const Footer = () => {
     <div
      className='footer'
      >
-      <div className='footer-txt'>Designed & Built by YASI.PO</div> 
+      <div className='footer-txt'>Designed & Built by YASI.BOBO</div> 
       <div className="footer-icon">
         <span><AiOutlineStar />6,615</span>
         <span><FiGitBranch />6,615</span>
